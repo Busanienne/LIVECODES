@@ -1,0 +1,68 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+
+thead {
+    background-color: rgba(44, 61, 160, 0.671);
+
+}
+
+tfoot {
+    background-color: rgb(240, 240, 118);
+}
+
+td {
+    border: 1px dashed rgb(0, 0, 0);
+    font-size: 12px;
+    font-family: Gulim;
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+    border-collapse: collapse;
+    border: 1px dashed rgb(0, 0, 0);
+}
+
+.highlight {
+    font-size: 14px;
+    background-color: rgba(254, 159, 178, 0.598);
+}
+
+
+nav {
+    font-size: 0.5em;
+    font-family: tahoma;
+    text-align: right;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(139, 150, 243);
+    color: white;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+    font-size: 1.4em;
+    font-family: gulim;
+    font-weight: bold;
+padding: 10px;
+}
+
+footer {
+    text-align: right;
+    font-size: 0.3em;
+    font-family: tahoma;
+    background-color: rgb(247, 149, 58);
+    color: rgb(12, 11, 11);
+    padding: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+}

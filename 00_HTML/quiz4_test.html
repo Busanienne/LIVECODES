@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>상품페이지</title>
+    <style type="text/css">
+        .productsuggestion {
+            font-size: 1.3em;
+            font-family: Gulim;
+            text-align: left;
+            font-weight: bold;
+            margin-bottom: 12px;
+            margin-left: 12px;
+        }
+
+        .productname {
+            font-size: 0.95em;
+            font-family: Gulim;
+            text-align: left;
+            font-weight: lighter;
+            margin-left: 12px;
+        }
+
+        .sitecenter {
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .imgsize {
+            width: 185px;
+            padding-bottom: 0px;
+
+        }
+
+        .flexcard {
+            display: flex;
+            border: 1px solid rgba(0, 0, 0, .125);
+            width: 490px;
+        }
+
+        .flexdesc {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 5px;
+        }
+
+        .columnlimit {
+            display: flex;
+            margin-top: 0px;
+            margin-bottom: 20px;
+            justify-content: space-between;
+        }
+
+        .sitetitle {
+            font-size: 2em;
+            font-weight: bold;
+            font-family: Righteous;
+            margin-bottom: 8px;
+        }
+
+        .sitesubtitle {
+            font-size: 1em;
+            font-weight: lighter;
+            margin-bottom: 32px;
+        }
+
+        .sitefeature {
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-bottom: 27px;
+            border-bottom: 1px solid #E0E0E0;
+        }
+
+        .sitefeaturestory {
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-top: 47px;
+            margin-bottom: 27px;
+            border-bottom: 1px solid #E0E0E0;
+        }
+
+        .bottomline {
+            border-bottom: 1px solid #212121;
+        }
+
+        .fixed-top {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            border-bottom: 1px solid #E0E0E0;
+            background-color: #F5F5F5;
+        }
+
+        .sitecentertop {
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .menutop {
+            height: 30px;
+            line-height: 30px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .sitetopright {
+            display: flex;
+            justify-content: space-between;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fixed-top">
+        <div class="sitecentertop">
+            <img src="00_IMG/teddylogo.png">
+            <div class="sitetopright">
+                <div class="menutop"><a href="htmladvance_position.html">Blog</a></div>
+                <div class="menutop"><a href="https://www.fun-coding.org">About</a></div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="sitecenter">
+        <div class="sitetitle">Teddy의 선물 블로그</div>
+        <div class="sitesubtitle">선물하기 좋은 선물을 고르고 골라서 소개하는 블로그입니다.</div>
+        <div class="sitefeature"><span class="bottomline">Featured</span></div>
+    </div>
+    <div class="sitecenter">
+        <div class="columnlimit">
+            <div class="flexcard">
+                <img class="imgsize" src="00_IMG/mattress.jpeg">
+                <div class="flexdesc">
+                    <div class="productsuggestion">매트리스커버 관련 상품 추천</div>
+                    <div class="productname">상품명: 보몽드 순면스퀘어 솔리드 누빔매트커버, 다크블루</div>
+                </div>
+            </div>
+            <div class="flexcard">
+                <img class="imgsize" src="00_IMG/covers.jpeg">
+                <div class="flexdesc">
+                    <div class="productsuggestion">여름이불세트 관련 상품 추천</div>
+                    <div class="productname">상품명: 슈에뜨룸 선인장 리플 침구 세트, 베이지</div>
+                </div>
+            </div>
+        </div>
+        <div class="columnlimit">
+            <div class="flexcard">
+                <img class="imgsize" src="00_IMG/hanger.jpeg">
+                <div class="flexdesc">
+                    <div class="productsuggestion">행거도어 관련 상품 추천</div>
+                    <div class="productname">상품명: 선우랜드 레인보우 2단 문걸이용 옷걸이 _중형, 화이트, 상세페이지참조</div>
+                </div>
+            </div>
+            <div class="flexcard">
+                <img class="imgsize" src="00_IMG/mattress_pink.jpeg">
+                <div class="flexdesc">
+                    <div class="productsuggestion">매트리스커버 관련 상품 추천</div>
+                    <div class="productname">상품명: 보드래 헬로우 누빔 매트리스커버, 핑크</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sitecenter">
+        <div class="sitefeaturestory"><span class="bottomline">All Stories</span></div>
+    </div>    <div class="sitecenter">
+        <div class="columnlimit">
+            <div class="flexcard">
+                <img class="imgsize" src="00_IMG/mattress.jpeg">
+                <div class="flexdesc">
+                    <div class="productsuggestion">매트리스커버 관련 상품 추천</div>
+                    <div class="productname">상품명: 보몽드 순면스퀘어 솔리드 누빔매트커버, 다크블루</div>
+                </div>
+            </div>
+            <div class="flexcard">
+                <img class="imgsize" src="00_IMG/covers.jpeg">
+                <div class="flexdesc">
+                    <div class="productsuggestion">여름이불세트 관련 상품 추천</div>
+                    <div class="productname">상품명: 슈에뜨룸 선인장 리플 침구 세트, 베이지</div>
+                </div>
+            </div>
+        </div>
+        <div class="columnlimit">
+            <div class="flexcard">
+                <img class="imgsize" src="00_IMG/hanger.jpeg">
+                <div class="flexdesc">g
+                    <div class="productsuggestion">행거도어 관련 상품 추천</div>
+                    <div class="productname">상품명: 선우랜드 레인보우 2단 문걸이용 옷걸이 _중형, 화이트, 상세페이지참조</div>
+                </div>
+            </div>
+            <div class="flexcard">
+                <img class="imgsize" src="00_IMG/mattress_pink.jpeg">
+                <div class="flexdesc">
+                    <div class="productsuggestion">매트리스커버 관련 상품 추천</div>
+                    <div class="productname">상품명: 보드래 헬로우 누빔 매트리스커버, 핑크</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

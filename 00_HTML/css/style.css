@@ -1,0 +1,27 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+th,
+td {
+    border: 1px solid rgb(231, 7, 145);
+    font-size: 20px rgba(3, 200, 170, 0.947);
+    font-family: Gulim;
+    text-align: center; /* 가운데 정렬 */
+}
+th {
+    padding: 10px;
+}
+td {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+thead {
+    background-color: rgb(235, 236, 154);
+}
+tfoot {
+    background-color: rgb(251, 90, 189);
+}

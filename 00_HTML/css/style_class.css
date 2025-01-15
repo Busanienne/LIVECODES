@@ -1,0 +1,33 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+thead {
+    background-color: rgb(134, 134, 132);
+
+}
+
+tfoot {
+    background-color: rgb(240, 240, 118);
+}
+
+td {
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 12px;
+    font-family: Gulim;
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+    border-collapse: collapse;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.highlight {
+    font-size: 14px;
+    background-color: rgba(254, 159, 178, 0.598);
+}
