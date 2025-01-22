@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+<style>
+    div {
+        width: 100px;
+        height: 100px;
+        border: 2px solid #f2b441;
+        border-radius:10px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .box1 {
+        background-color: #f2d541;
+
+    }
+
+</style>
+
+
+        </head>
+        <body>
+            <div class="box1">ease</div>
+            <script type="text/javascript">
+                function makeRed(event) {
+                    box.style.background = "red";
+                }
+                function makeBlue(event) {
+                    box.style.background = "blue";
+                }
+            
+            const box = document.querySelector(".box1");
+            box.addEventListener("mousedown", makeRed);
+            box.addEventListener("mouseout", makeBlue);
+            </script>
+        </body>
+</html>

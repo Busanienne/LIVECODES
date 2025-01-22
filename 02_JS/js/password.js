@@ -4,4 +4,4 @@ let password = prompt("PASSWORD");
         }
         else {
             alert("암호가 다릅니다.");
-        }
+        } 
