@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<body>
+    <form action="https://www.busanienne.com">
+        <input type="password" name="data" id="passwordText">
+        <input type="submit" value="Sign In" id="signin">
+    </form>
+
+    <script>
+        function checkPassword(event) {
+            const passwordData = document.querySelector("#passwordText").value;
+            let passwordText = passwordData.value;
+            console.log(passwordText);
+            if (passwordText == "korea123") {
+                window.open("https://www.busanienne.com");
+            } else {
+                alert("Access Denied");
+            }
+        }
+        const signinButton = document.querySelector("#signin");
+        signinButton.addEventListener("click", checkPassword);
+    </script>
+</body>
+
+</html>
