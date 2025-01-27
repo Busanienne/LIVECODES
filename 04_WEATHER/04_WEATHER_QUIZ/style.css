@@ -1,0 +1,80 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Noto Sans KR", sans-serif;
+    background-color: #E0E0E0;
+    text-align: center;
+}
+header {
+    font-size: 2em;
+    color: #333333;
+    font-weight: bold;
+    margin: 30px 0px 0px 0px;
+}
+.weather-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.city-weather {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 30px 10px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;     
+}
+
+h2 {
+    color: #333333;
+    margin: 3px;
+}
+
+.weather-icon {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 240px;
+    border: 1px solid #E8EEEF;
+    border-radius: 10px;
+}
+
+.weather-info {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+    color: #777777;
+}
+
+.description {
+    font-size: 1.7em;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1200px) {
+    .city-weather {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .city-weather {
+        width: 90%;
+    }
+}
